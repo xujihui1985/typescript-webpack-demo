@@ -18,11 +18,24 @@ module.exports = {
         test: /\.ts$/,
         exclude: /node_modules/,
         loader: 'babel!ts-loader'
+      },
+       {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel'
+      },
+      {
+        test: /\.handlebars$/,
+        exclude: /node_modules/,
+        loader: 'raw'
       }
     ]
   },
   resolve: {
-    extensions: ['', '.js', '.ts']
+    extensions: ['', '.js', '.ts', '.hbs']
+  },
+  node: {
+   fs: "empty"
   },
   externals: {
     "jquery": "jQuery"
