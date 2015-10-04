@@ -1,0 +1,4 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	"typescript.tsdk": "/Users/sean/work/tests/javascript/typescriptDemo/node_modules/typescript/lib"
+}

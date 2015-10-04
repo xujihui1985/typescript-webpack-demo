@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "noImplicitAny": false,
+        "outDir": "./build",
+        "rootDir": ".",
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+      "src/index.ts",
+      "src/hello.ts",
+      "typings/tsd.d.ts"
+    ]
+}
